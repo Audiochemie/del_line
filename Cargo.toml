@@ -1,6 +1,6 @@
 [package]
 name = "del_line"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Small binary to delete the given lines from a file."
 license = "GPL-2.0-or-later"

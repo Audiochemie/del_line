@@ -31,7 +31,6 @@ fn main() {
         file_s = &cli_args[f_pos + 1..];
         del_lines = cli_args[n_pos + 1..f_pos]
             .iter()
-            .inspect(|l| println!("{}", l))
             .map(|v| v.parse::<usize>().unwrap())
             .collect();
     }
